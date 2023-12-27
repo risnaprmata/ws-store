@@ -62,9 +62,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar" id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-info ftco-navbar" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" style="color: #17a2b8" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
+			<a class="navbar-brand" style="color:white" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="oi oi-menu"></span> Menu
 			</button>
@@ -95,7 +95,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<a class="dropdown-item" href="<?php echo site_url('auth/logout'); ?>">Logout</a>
 							<?php else : ?>
 								<a class="dropdown-item" href="<?php echo site_url('auth/login'); ?>">Login</a>
-								<a class="dropdown-item" href="<?php echo site_url('auth/register'); ?>">Register</a>
+								<a class="dropdown-item" href="<?php echo site_url('auth/register'); ?>">Registrasi</a>
 							<?php endif; ?>
 						</div>
 					</li>

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
+<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-dark">
     <div class="container py-4">
       
     </div>
@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
         <div class="row">
             <div class="mouse">
-                      <a href="#" class="mouse-icon">
+                      <a href="#" class="mouse-icon bg-dark">
                           <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
                       </a>
                   </div>
@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12  text-center">
 
           <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="icon-heart text-danger" aria-hidden="true"></i> for every people.

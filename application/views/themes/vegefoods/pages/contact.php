@@ -61,7 +61,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <?php echo form_error('message'); ?>
           </div>
           <div class="form-group">
-            <input type="submit" value="Kirim Pesan" class="btn btn-info py-3 px-5">
+            <input type="submit" value="Kirim Pesan" class="btn btn-dark py-3 px-5">
           </div>
         </form>
 

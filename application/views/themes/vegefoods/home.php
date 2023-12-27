@@ -95,7 +95,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
               <a href="<?php echo site_url('shop/product/' . $product->id . '/' . $product->sku . '/'); ?>" class="img-prod">
                 <img class="img-fluid" src="<?php echo base_url('assets/uploads/products/' . $product->picture_name); ?>" alt="<?php echo $product->name; ?>">
                 <?php if ($product->current_discount > 0) : ?>
-                  <span class="status"><?php echo count_percent_discount($product->current_discount, $product->price, 0); ?>%</span>
+                  <span class="btn btn-info"><?php echo count_percent_discount($product->current_discount, $product->price, 0); ?>%</span>
                 <?php endif; ?>
                 <div class="overlay"></div>
               </a>
@@ -141,7 +141,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <h2 class="mb-4">Deal of the day</h2>
         <p><?php echo $best_deal->description; ?></p>
         <h3><a style="color:white" href="#"><?php echo $best_deal->name; ?></a></h3>
-        <span class="price" style="color:white">Rp <?php echo format_rupiah($best_deal->price); ?> <a href="#" style="color:white">sekarang hanya Rp <?php echo format_rupiah($best_deal->price - $best_deal->current_discount); ?></a></span>
+        <span class="price" style="color:white">Rp <?php echo format_rupiah($best_deal->price); ?> <a href="#" style="color:black">sekarang hanya Rp <?php echo format_rupiah($best_deal->price - $best_deal->current_discount); ?></a></span>
         <div id="timer" class="d-flex mt-5">
           <div class="time pl-3">
             <a href="#" class="btn btn-info add-cart" data-sku="<?php echo $best_deal->sku; ?>" data-name="<?php echo $best_deal->name; ?>" data-price="<?php echo ($best_deal->current_discount > 0) ? ($best_deal->price - $best_deal->current_discount) : $best_deal->price; ?>" data-id="<?php echo $best_deal->id; ?>"><i class="ion-ios-cart"></i></a>
@@ -172,11 +172,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <?php foreach ($reviews as $review) : ?>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(<?php echo base_url('assets/uploads/users/' . $review->profile_picture); ?>)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
+                  
                   <div class="text text-center">
                     <p class="mb-5 pl-4 line"><?php echo $review->review_text; ?></p>
                     <p class="name"><?php echo $review->name; ?></p>
