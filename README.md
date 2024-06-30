@@ -1,20 +1,18 @@
-# Toko Sayur 22
+# WS STORE
 
-Toko sayur 22 merupakan aplikasi web toko online sederhana dengan demo produk penjualan sayur. Produk dan kategori dapat diubah dengan bebas (tidak hanya sayur), pengaturan (nama situs, rekening) dan sebagainya bisa diubah dengan bebas melalui dasbor.
-
-Aplikasi ini **HANYA DIGUNAKAN UNTUK PEMBELAJARAN** dan **TIDAK DISARANKAN DIGUNAKAN** pada toko yang nyata.
+Ws Store adalah sebuah platform toko bangunan online yang menyediakan berbagai produk bangunan dan peralatan rumah tangga. Dirancang untuk memenuhi kebutuhan konsumen dalam mencari dan membeli material bangunan serta perlengkapan rumah secara praktis dan efisien.
 
 ##Fitur
 
-- Login
 - Register
+- Login
 - Keranjang belanja
 - Checkout
-- Sistem kupon Belanja
-- Pembayaran melalui transfer bank
+- Pembayaran melalui transfer bank dan COD
 - Konfirmasi pembayaran
+- Sistem kupon Belanja
 - Formulir kontak
-- Testimoni
+- Testimoni pelanggan
 
 ##Hak akses
 
@@ -35,7 +33,3 @@ Untuk mencoba menggunakan toko ini, gunakan dua browser yang berbeda untuk memud
 - Password: 12345
 
 Untuk panduan cara menginstal, silahkan buka file **panduan-installasi.pdf**
-# toko-bangunan
-# toko-bangunan
-# toko-bangunan
-# toko-bangunan
